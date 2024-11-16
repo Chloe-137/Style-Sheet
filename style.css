@@ -1,0 +1,138 @@
+.encabezado {
+    font-size: 75px;
+    font-family: "Barriecito";
+    text-align: center;
+    color: rgb(47,79,79);
+    background-image: url("https://www.solofondos.com/wp-content/uploads/2016/05/unnamed-31.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 25px; 
+  }
+  
+  .colores {
+    font-size: 30px;
+    font-family: "Barriecito";
+    text-align: center;
+    background-color: rgb(143,188,143);
+    color: #FFEBCD;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0;
+  }
+  
+  .fuentes {
+    font-size: 30px;
+    font-family: "Barriecito";
+    text-align: center;
+    background-color: #B8860B;
+    color: #FFEBCD;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .estilos {
+    font-size: 30px;
+    font-family: "Barriecito";
+    text-align: center;
+    background-color: #DC143C;
+    color: #FFEBCD;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .contenedor-colores {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #beige,
+  #marron,
+  #vara {
+    font-size: 30px;
+    font-family: "Edu AU VIC WA NT Pre", "Arial", sans-serif; 
+    list-style: none;
+    padding: 40px;
+    text-align: center;
+    margin: 15px; 
+    font-weight: bold;
+  
+  }
+  
+  #beige {
+    background-color: rgb(255,248,220);
+  }
+  
+  #marron {
+    background-color: rgb(139,69,19);
+  }
+  
+  #vara {
+    background-color: #B8860B;
+  }
+  
+  .contenedor-fuentes {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .roboto,
+  .barriecito,
+  .guion-de-maullido {
+    font-size: 30px;
+    padding: 40px;
+    margin: 15px;
+    list-style: none;
+    text-align: center;
+  }
+  
+  .roboto {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .barriecito {
+    font-family: "Barriecito", sans-serif;
+  }
+  
+  .guion-de-maullido {
+    font-family: "Edu AU VIC WA NT Pre", "Arial", sans-serif;
+    font-size: 25px;
+  }
+  
+  .contenedor-estilos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+    
+  
+  .estilo-encabezado,
+  .estilo-cuerpo {
+    font-size: 30px;
+    font-family: "Edu AU VIC WA NT Pre", "Arial", sans-serif; 
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+  .lista-encabezado,
+  .lista-cuerpo {
+    font-size: 25px;
+    padding: 0;
+    text-align: left;
+    list-style: none;  /* Elimina los puntos predeterminados de la lista */
+    padding-left: 0;
+    font-family: "Edu AU VIC WA NT Pre", "Arial", sans-serif; 
+    font-weight: bold;
+  }
+  
+  .lista-encabezado li::before, 
+  .lista-cuerpo li::before {
+    content: '\2665';  /* Símbolo Unicode para el corazón (♥) */
+    color: #2e8b57;  /* Color del corazón */
+    font-size: 20px;  /* Tamaño del corazón */
+    margin-right: 10px;  /* Espacio entre el corazón y el texto */
+  }
